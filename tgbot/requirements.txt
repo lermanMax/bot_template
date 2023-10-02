@@ -1,0 +1,12 @@
+python_dotenv==0.21.1
+loguru==0.7.0
+pydantic==2.1.1
+
+asyncpg==0.28.0
+aiohttp==3.8.5
+python-dateutil==2.8.2
+
+aiogram==3.0.0rc1
+
+schedule==1.2.0
+apscheduler==3.10.3
