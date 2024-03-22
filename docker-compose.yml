@@ -22,10 +22,10 @@ services:
       - postgres
 
   tgbot:
+    container_name: tgbot
     build:
       context: ./
       dockerfile: ./tgbot/Dockerfile
-    container_name: tgbot
     command: python -m tgbot
     volumes:
       - .:/tg_app
